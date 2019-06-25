@@ -1,34 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Bryan Villalon</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    </head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <title>Bryan Villalon</title>
+  </head>
 
     <!--top of the body has a wrapper used to make the whole height 100% for the sticky footer-->
-    <body>
-        <div class="wrapper">
-            <header>
+    <body class="d-flex flex-column h-100">
+        <div class="flex-shrink-0">
+            <header class="navbar navbar-expand-sm p-0 mb-3">
                 <!--here I'm using a header container to bring in the full size of the window to 960 px. the header width will go to the full width of the window
                 The h1 tag has it's own class to allow it to be inline and remove the margins to take up the specified height and width
             the ul for top nav is contained to allow for the individual entries to have padding. in the css the link attributes are specified-->
-                <div class="header_container">
-                    <h1 class="heading_teal_back">Bryan Villalon</h1>
-                    <div class=topnav>
-                        <ul>
-                            <li><a href="index.html">About Me</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
+                <div class="container d-block p-0 ">
+                    <h1 class="d-block d-sm-inline-block text-center m-0 p-3">Bryan Villalon</h1>
+                    <div class="d-block d-sm-inline-block text-center float-sm-right py-4">
+                        <a class=" px-2" href="index.html">About Me</a>
+                        <a class="border-left px-2" href="portfolio.html">Portfolio</a>
+                        <a class="border-left px-2" href="contact.html">Contact</a>
                     </div>
                 </div>
             </header>
             <!--entire content is contained to make a reference to place items. the h2 tag has its own class to allow for control the rest is just about me-->
-            <div class="container">
-                <h2 class="heading_teal_text">About Me</h2>
-                <img src="assets/images/BryanV_picture.jpg.jpg" alt="Picture of Bryan Villalon">
+            <div class="container p-3 my-3">
+                <h2 class="heading_teal_text border-bottom mb-3">About Me</h2>
+                <img  class=" float-sm-left mr-2" src="assets/images/BryanV_picture.jpg.jpg" alt="Picture of Bryan Villalon">
                 <p>  Hi! My name is Bryan Villalon and welcome to my page! </p>
 
                 <p>
@@ -63,8 +65,8 @@
             <div class="push"> </div>
         </div>
 <!-- sticky footer to stay at the bottom of the content or the bottom of the window, whichever comes last-->
-        <footer>
-            <div class="stick_foot">
+        <footer class="footer mt-auto py-3">
+            <div class="text-center">
                 Copyright &copy;
             </div>
         </footer>
