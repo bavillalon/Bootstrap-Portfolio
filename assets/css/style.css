@@ -41,6 +41,20 @@ a{
     text-decoration: none;
     color: inherit;
 }
+a:hover{
+    text-decoration: none;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+textarea{
+    height: 150px;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+  }
+
 
 footer{
     height: 60px;
