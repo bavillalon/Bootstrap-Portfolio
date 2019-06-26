@@ -24,6 +24,7 @@ h3{
     position: absolute;
     bottom: 10%;
 }
+
 header{
     background-color: #ffffff;
     color:#777777;
@@ -41,13 +42,12 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
+
 a:hover{
     text-decoration: none;
     background-color: #4aaaa5;
     color: #ffffff;
-}
-textarea{
-    height: 150px;
 }
 
 input[type=submit] {
